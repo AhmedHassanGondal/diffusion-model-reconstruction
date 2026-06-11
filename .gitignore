@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Testing
+.pytest_cache/
+
+# Model checkpoints & generated images (reproducible via training/sampling)
+models/
+outputs/
+*.pt
+*.pth
