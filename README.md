@@ -35,7 +35,7 @@ denoises it back, recovering the structure:
 ## 🗂️ Structure
 
 ```
-Diffusion-Model-Reconstruction/
+diffusion-model-reconstruction/
 ├── src/diffusion/
 │   ├── unet.py          # time-conditioned U-Net (ε-prediction)
 │   ├── ddpm.py          # GaussianDiffusion: schedule, q_sample, p_sample, sample, reconstruct
